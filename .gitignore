@@ -1,2 +1,7 @@
 
 Temp/UnityLockfile
+Library/ArtifactDB
+*.log
+Library/SourceAssetDB-lock
+Library/SourceAssetDB
+Library/ArtifactDB-lock
