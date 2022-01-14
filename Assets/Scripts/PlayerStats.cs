@@ -5,19 +5,19 @@ using UnityEngine;
 public class PlayerStats : CommonAttributes
 {
     [SerializeField] private InventoryResources inventory;
-    private int maxMana;
-    private int currentMana;
-    private int experience;
+    // private int maxMana;
+    // private int currentMana;
+    // private int experience;
     void Start()
     {
         maxHealth = 100;
         currentHealth = 100;
-        maxMana = 100;
-        currentMana = 100;
-        attack = 5;
+        //maxMana = 100;
+        //currentMana = 100;
+        attack = 4;
         defence = 1;
         level = 1;
-        experience = 0;
+        //experience = 0;
     }
     private int attackUpgradeCost = 5;
     private int attackUpgradeLevel {get; set;}

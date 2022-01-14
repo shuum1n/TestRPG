@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Upgrades : MonoBehaviour
 {
+    //IDK, dynamic programming stuff here read file print upgrade
     [SerializeField] private GameObject Player;
     private int attackUpgradeLevel {get; set;}
     private int healthUpgradeLevel {get; set;}

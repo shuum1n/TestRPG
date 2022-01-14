@@ -36,19 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\UpdatePrice.cs" />
-     <Compile Include="Assets\SpawningLogic.cs" />
      <Compile Include="Assets\GameBattleLogic.cs" />
      <Compile Include="Assets\InventoryResources.cs" />
      <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\YellowSquare.cs" />
      <Compile Include="Assets\Upgrades.cs" />
      <Compile Include="Assets\Scripts\CommonAttributes.cs" />
-     <Compile Include="Assets\Scripts\SampleEnemy1.cs" />
      <Compile Include="Assets\MainManu.cs" />
      <Compile Include="Assets\GUIHandler.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\BlueSquare.cs" />
      <Compile Include="Assets\Scripts\PlayerStats.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnAnimationEnd.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\RedSquare.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

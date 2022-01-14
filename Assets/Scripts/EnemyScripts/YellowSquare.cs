@@ -6,7 +6,7 @@ public class YellowSquare : CommonAttributes
 {
     void Awake()
     {
-        maxHealth = 3;
+        maxHealth = 4;
         currentHealth = maxHealth;
         attack = 3;
         defence = 1;
